@@ -27,6 +27,10 @@ Dependencies:
     apt-get install automake libtool libsnmp-dev bison make gcc flex git libglib2.0-dev libfl-dev
     
     Fedore/RedHat/CentOS:
+    dnf update
+    dnf install git
+    dnf install gcc -y
+    dnf install gcc-c++ -y
     yum install autoconf automake libtool glib2-devel bison flex net-snmp-devel
     
     openSUSE/SLES:
