@@ -148,6 +148,7 @@ if test "x$GCC" = "xyes"; then
 
 	dnl ENABLE WARNINGS SUPPORTED BY THE VERSION OF GCC IN USE
 	for newflag in \
+			"-fPIE" \
 			"-Waggregate-return" \
 			"-Wbad-function-cast" \
 			"-Wcast-align" \
