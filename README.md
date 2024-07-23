@@ -60,8 +60,8 @@ Installation steps
 ------------------
 
 Follow the following steps to download and install the utility.
-
-    git clone https://github.com/Pi1lot/docsis
+    
+    git clone https://github.com/Pi1lot/docsis (added -fPIE in configure.ac)
     cd docsis
     ./autogen.sh
     ./configure
