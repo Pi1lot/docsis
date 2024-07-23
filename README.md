@@ -18,7 +18,7 @@ CM-SP-MULPIv3.0-I24
 
 Linux/Unix
 ----------
-
+/!\ Since this was not compiing properly on Rocky Linux, I've made some adjustements
 This was tested on Ubuntu 14.10, Fedora 21, openSUSE 13.2 (little endian) and Debian 7.5 Sparc64 (big endian) and it is known to work without issues.
 
 Dependencies:
@@ -61,7 +61,7 @@ Installation steps
 
 Follow the following steps to download and install the utility.
 
-    git clone https://github.com/rlaager/docsis.git
+    git clone [https://github.com/rlaager/docsis.git](https://github.com/Pi1lot/docsis)
     cd docsis
     ./autogen.sh
     ./configure
